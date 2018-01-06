@@ -1,4 +1,4 @@
-# alveflo.web
+# web
 Personal homepage
 
 ## develop
