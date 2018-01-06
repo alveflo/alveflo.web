@@ -5,15 +5,13 @@ sidebar_link: true
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This website primarily serves as a place
+for me to write about good-to-know kinda things or just evaluating
+cool frameworks or whatever. More importantly writing about some
+"gotchas" that I've stumbled upon in order to save myself another
+headache, and maybe easing some of your headaches as well.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Oh and my name is Victor Alveflo and I'm swedish software
+engineer.
+For open source contributions, check
+out my [Github profile](https://github.com/alveflo).

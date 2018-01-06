@@ -4,4 +4,9 @@ title: Home
 ---
 
 <h1>Hi!</h1>
-This is the start page?
+
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
