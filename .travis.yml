@@ -1,0 +1,5 @@
+install:
+- make build
+
+script:
+- deploy.sh
