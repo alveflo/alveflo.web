@@ -4,7 +4,9 @@ serve:
 	jekyll serve --host $$IP --port $$PORT --baseurl ''
 
 install:
-	cd app && gem install jekyll bundle 
+	cd app && \
+	gem install jekyll bundle && \
+	bundle install
 
 # Builds application
 build:
