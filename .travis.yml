@@ -6,4 +6,4 @@ install:
 - make build-ci
 
 script:
-- deploy.sh
+- sh deploy.sh
