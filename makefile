@@ -11,8 +11,7 @@ install:
 # Builds application
 build:
 	cd app && \
-	bundle exec jekyll build --quiet #&& \
-	#bundle exec htmlproofer ./_site
+	bundle exec jekyll build --quiet 
 
-# Travis CI install
+# Travis CI build
 build-ci: install build 
