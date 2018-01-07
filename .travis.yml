@@ -1,5 +1,9 @@
+language: ruby
+rvm:
+- 2.3.3
+
 install:
-- make build
+- make build-ci
 
 script:
 - deploy.sh
