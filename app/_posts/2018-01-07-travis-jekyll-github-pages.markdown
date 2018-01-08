@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Deploying Jekyll site to GitHub Pages using Travis CI
+title:  Deploying your Jekyll site to GitHub Pages using Travis CI
 categories: code
 ---
 
@@ -9,6 +9,9 @@ deployment for your [Jekyll](https://jekyllrb.com)
 site using [Travis](https://travis-ci.org) as CI and 
 [Github Pages](https://pages.github.com) as your static file host.
 
+[Jekyll](https://jekyllrb.com) is a "blog-aware" static website generator written in
+Ruby with tons of open source themes and plugins, which makes it easy
+to create a simple website or blog in no time. 
 [Travis CI](https://travis-ci.org) offers a free plan for open source projects and 
 [Github](https://pages.github.com) offers free hosting for static files, 
 one website per user and per project, known as Github Pages.
@@ -63,6 +66,7 @@ and navigate into our `_site` directory (where the site is built)
 and push the content to our github pages repo. Note that you need to
 generate a [Github access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) 
 in order to be able to push to your repo from Travis.
+
 ```
 git config --global user.email "your@email.com"
 git config --global user.name "Travis CI"
